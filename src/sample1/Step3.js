@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step3 = ({ username, age, addr, tel, job, email, sex, inter, nextPage }) => {
+const Step3 = ({ username, age, addr, tel, job, email, sex, inter, nextPage, prevPage }) => {
   return (
     <>
       <ul>
@@ -14,6 +14,7 @@ const Step3 = ({ username, age, addr, tel, job, email, sex, inter, nextPage }) =
         <li><span>관심분야</span>:<em> {inter} </em> </li>
       </ul>
       <p>
+        <button onClick={prevPage}>이전</button>
         <button onClick={nextPage}>다음</button>
       </p>
     </>

@@ -47,7 +47,7 @@ const Main = () => {
       }
       {
         step === 3 &&
-        <Step3 nextPage={nextPage} username={username} age={age} addr={addr} tel={tel} job={job} email={email} sex={sex} inter={inter} />
+        <Step3 prevPage={prevPage} nextPage={nextPage} username={username} age={age} addr={addr} tel={tel} job={job} email={email} sex={sex} inter={inter} />
       }
       {
         step === 4 &&
