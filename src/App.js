@@ -1,10 +1,12 @@
 import React from 'react';
-import Test4 from './components/Test4';
+// import Test6 from './components/Test6';
+import Main from './sample1/Main'
 
 const App = () => {
   return (
     <div>
-      <Test4 />
+      {/* <Test6 /> */}
+      <Main />
     </div>
   );
 };
